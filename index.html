@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Meu portfolio</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #e7e7e7;
+            padding: 20px;
+            font-family: Arial;
+        }
+        .main{
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1{
+            font-size: 50px;
+            word-break: break-all;
+        }
+
+        .row{
+            margin: 8px -16px;
+        }
+
+        .row, .row>.column{
+            padding: 8px;
+        }
+
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column{
+            float: left;
+            width: 25%;
+        }
+
+        @media screen and (max-width:900px){
+            .column{
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width:600px){
+            .column{
+                width: 100%;
+            }
+        }
+
+        .content{
+            background-color: white;
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Meu Portfolio</h1>
+        <hr/>
+        <h2>Angélica Sayuri Mizutani</h2>
+        <p>Acadêmica do 3º ano de Engenharia de Software no Instituto Federal do Paraná - Campus Paranavaí</p>
+        <p>Meus contatos: </p>
+        <p>Celular/Whatsapp: (44) 9 8444-4144</p>
+        <p>Email: angelicamizutani@gmail.com</p>
+
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="./imagens/imagem1.png"
+                        alt="Imagem de teste sem conteúdo"
+                        style="width: 100%;">
+                    <h3>Projeto1</h3>
+                    <p>Lorem ipsum etiam orci posuere diam non magna rhoncus ipsum consequat, mollis venenatis augue in etiam vulputate tempus fringilla magna,  </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="./imagens/imagem2.png"
+                        alt="Imagem de teste sem conteúdo"
+                        style="width: 100%;">
+                    <h3>Projeto 2</h3>
+                    <p>Lorem ipsum etiam orci posuere diam non magna rhoncus ipsum consequat, mollis venenatis augue in etiam vulputate tempus fringilla magna,  </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="./imagens/imagem3.png"
+                        alt="Imagem de teste sem conteúdo"
+                        style="width: 100%;">
+                    <h3>Projeto 3</h3>
+                    <p>Lorem ipsum etiam orci posuere diam non magna rhoncus ipsum consequat, mollis venenatis augue in etiam vulputate tempus fringilla magna,  </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="./imagens/imagem4.png"
+                        alt="Imagem de teste sem conteúdo"
+                        style="width: 100%;">
+                    <h3>Projeto 4</h3>
+                    <p>Lorem ipsum etiam orci posuere diam non magna rhoncus ipsum  </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <img src="./imagens/imagemGeral.png", style="width: 100%;">
+            <h3>Meu projeto principal</h1>
+            <p>
+                Lorem ipsum senectus laoreet mauris nulla risus tellus duis condimentum, vestibulum elit a commodo elit himenaeos netus. elementum mi consectetur potenti lacus luctus sodales potenti vehicula etiam ultrices, vivamus auctor est vestibulum per vulputate nam cras consequat duis, amet quisque egestas felis magna donec facilisis fusce conubia. neque aliquet et bibendum ligula nisl tellus eget donec varius donec malesuada risus, conubia nisl placerat sed justo laoreet a dolor justo diam fames. torquent semper fames etiam neque class tortor, in et cursus aenean primis ullamcorper, nam integer semper metus etiam. dapibus auctor sem vehicula pharetra et molestie, litora netus neque eu. 
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
